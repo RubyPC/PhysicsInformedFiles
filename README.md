@@ -5,3 +5,4 @@ In the *Scripts/* folder, you will find python scripts for reconstructing the so
 Also, there's a script to detect the distortions in gravitational potential that are imposed due to the different type of dark matter substructure inherent in the lensing system. This is done by non-trivially solving an anisotropic eikonal partial differential equation for the gravitational potential and finding points of inflection.
 
 This repository also contains a notebook for training and comparing models, namely a pretrained ResNet18 and a Vision Transformer (ViT), for classifying the lenses as to whether there is CDM substructure or no CDM substructure. Both models are trained in this notebook and a comparison of losses and ROCAUC curves shown at the end. The results for each model are stored in the *Results/* folder. 
+All data used is given in the *Data/* folder.
